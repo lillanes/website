@@ -8,12 +8,12 @@
     <style type="text/css">
       body {
       margin:30px auto;
-      max-width:42em;
+      max-width:48em;
       line-height:1.6;
       color:#ebdbb2;
       background:#282828;
       padding:0 10px;
-      font-family: 'Go Mono', monospace, serif;
+      font-family: "Go Mono", Courier, monospace;
       }
       a:link {
         color:#458588;
@@ -34,16 +34,20 @@
       section {
       clear:left;
       }
-      #email {
-      margin:0 0 20px 0;
-      color:#98971a;
+      strong {
+        font-weight:bold;
+        color:#fbf1c7;
       }
-      .publications li {
-      margin:0;
+      #email {
+        margin:0 0 20px 0;
+        color:#98971a;
+      }
+      #publications li {
+        margin:0 0 6px 0;
       }
       .pubtitle {
-      font-weight:bold;
-      color:#fbf1c7;
+        font-weight:bold;
+        color:#fbf1c7;
       }
       @font-face {
         /* The Go fonts are Copyright (c) 2016 Bigelow & Holmes Inc.. All rights
@@ -51,6 +55,14 @@
         font-family: 'Go Mono';
         src: url(fonts/Go-Mono.ttf);
         font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        /* The Go fonts are Copyright (c) 2016 Bigelow & Holmes Inc.. All rights
+           reserved. See fonts/README for details. */
+        font-family: 'Go Mono';
+        src: url(fonts/Go-Mono-Bold.ttf);
+        font-weight: bold;
         font-style: normal;
       }
     </style>
@@ -112,7 +124,8 @@
           <span class="pubtitle">Symbolic Plans as High-Level Instructions for Reinforcement Learning.</span>
           Illanes, L.; Yan, X.; Toro Icarte, R.; McIlraith, S. A.
           In <i>Proceedings of the 30th International Conference on Automated Planning and Scheduling (ICAPS)</i>,
-          2020. An abridged version of this paper will also appear on <a href="https://kr2ml.github.io/2020/">KR2ML@NeurIPS2020</a>.
+          2020. An abridged version of this paper also appeared on <a href="https://kr2ml.github.io/2020/">KR2ML@NeurIPS2020</a>,
+          where it was recognized with the <strong> Best Paper Award. </strong>
           <a href="papers/IllanesYTM-icaps2020-symbolic.pdf">pdf</a>
           <a href="https://aaai.org/ojs/index.php/ICAPS/article/view/6750">link</a>
           </br>
@@ -200,7 +213,7 @@
           <span class="pubtitle">Reconnecting with the Ideal Tree: An Alternative to Heuristic Learning in Real-Time Search.</span>
           Rivera, N.; Illanes, L.; Baier, J. A.; Hernández, C.
           In <i>Proceedings of the 6th Annual Symposium on Combinatorial Search (SoCS)</i>,
-          2013. <b> Best Student Paper Award. </b>
+          2013. <strong> Best Student Paper Award. </strong>
           <a href="papers/RiveraIllBaiHer-socs2013-reconnecting.pdf">pdf</a>
           <a href="https://www.aaai.org/ocs/index.php/SOCS/SOCS13/paper/view/7270">link</a>
         </li>
